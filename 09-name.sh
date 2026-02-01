@@ -2,10 +2,10 @@
 
 # look up ip addresses of various search engines
 
-servers="github.com youtube.com twitter.com reddit.com"
+servers="yahoo.com google.com firefox.com bing.com"
 
 for server in $servers; do
-    nslookup $server
+    traceroute $server
     echo "----------------------------"
 done
 
