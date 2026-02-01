@@ -5,7 +5,8 @@
 servers="yahoo.com google.com firefox.com bing.com"
 
 for server in $servers; do
-    ping $server
+    traceroute $server
+
     echo "----------------------------"
 done
 
